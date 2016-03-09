@@ -1,0 +1,21 @@
+[core]
+	excludesfile = /Users/mattcarrier/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Matt Carrier
+	email = mcarrier@kenzan.com
+[alias]
+	st = status
+	cm = commit
+	pl = pull
+	ph = push
+	chpk = cherry-pick
+	br = branch
+	co = checkout
+[pull]
+	rebase = true
