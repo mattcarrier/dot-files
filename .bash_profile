@@ -1,5 +1,5 @@
 # variables
-export PS1="\e[1;34m\u@\h \w$ \e[m"
+export PS1="\[\033[01;31m\]\u@\h \w$ \[\033[0m\]"
 
 # aliases
 # maven
