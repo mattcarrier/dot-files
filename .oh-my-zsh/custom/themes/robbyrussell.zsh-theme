@@ -1,5 +1,5 @@
 PROMPT="%(?:%{$fg_bold[green]%}[%*] ➜ :%{$fg_bold[red]%}[%*] ➜ )"
-PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
+PROMPT+='%{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 RPROMPT='$(virtualenv_prompt_info)'
 
 ZSH_THEME_VIRTUALENV_PREFIX="%{$fg_bold[blue]%}venv:(%{$fg[red]%}"
