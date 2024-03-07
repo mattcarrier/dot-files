@@ -1,23 +1,10 @@
-[core]
-	excludesfile = /Users/mattcarrier/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+[gpg]
+        format = ssh
+[gpg "ssh"]
+        program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+        gpgsign = true
 [user]
-	name = Matt Carrier
-	email = mcarrieruri@gmail.com
-[alias]
-	st = status
-	cm = commit
-	pl = pull
-	ph = push
-	chpk = cherry-pick
-	br = branch
-	co = checkout
-[pull]
-	rebase = true
-[push]
-	default = current
+        signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIALQn/ti4dqC56FJtfCVBFF5qg2bFSPO8L0Mv50klToc
+        name = Matthew Carrier
+        email = mcarrieruri@gmail.com
