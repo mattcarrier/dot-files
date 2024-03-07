@@ -78,6 +78,14 @@ node version manager
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
+Find, install and configure default Node version.
+
+```shell
+nvm ls
+nvm install <version>
+nvm alias default <version>
+```
+
 ### sdkman
 
 JDK version manager
