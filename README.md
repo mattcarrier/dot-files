@@ -6,7 +6,8 @@ Clone this directory to: `~/src/mattcarrier/dot-files`
 
 ## Install Software
 
-Install these in order.
+Install these in order.  Yes Matt, even though you are questioning why you didn't use homebrew, remember you will still
+get burned by it, just install things without it!
 
 ### ohmyzsh
 
