@@ -29,15 +29,10 @@ python version manager
 curl https://pyenv.run | bash
 ```
 
-list versions for install
+Find, install, and configure global version
 
 ```shell
 pyenv install -l
-```
-
-Install and configure global version
-
-```shell
 pyenv install <version>
 pyenv global <version>
 ```
@@ -78,7 +73,7 @@ node version manager
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
-Find, install and configure default Node version.
+Find, install and configure default version.
 
 ```shell
 nvm ls
