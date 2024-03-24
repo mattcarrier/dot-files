@@ -75,7 +75,8 @@ This is just for myself, if you are seeing this and are not me then feel free to
 at the `.gitconfig` file but the SSH key will not work for you since it is kept in my personal
 1Password account.
 
-**Matt: update the email configuration for specific company needs**
+**Matt: update the email configuration for specific company needs. Make sure to add any new emails to your git
+profile to allow git signing verification.**
 
 #### Link gitconfig
 
