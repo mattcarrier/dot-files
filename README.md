@@ -209,13 +209,15 @@ shell customization
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## Link zshrc
+## Copy zshrc
 
 **This will OVERWRITE your zshrc so save a backup if needed before you run this!**
 
 ```shell
-ln -sf ~/src/mattcarrier/dot-files/.zshrc ~/.zshrc
+cp ~/src/mattcarrier/dot-files/.zshrc ~/.zshrc
 ```
+
+**Update anything specific for the company in ~/.zshrc**
 
 ## Source zshrc
 
